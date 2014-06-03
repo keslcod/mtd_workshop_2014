@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7489BFE0E946AA9D69BB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A630DA196CC749B2BE7A8CBE /* UIKit.framework */; };
+		1DF310AE56AC42EFA9EA3107 /* libPods-LBBlurredImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB941044CAE34A1D9D154D86 /* libPods-LBBlurredImage.a */; };
+		24FCB6FF4A784C848ED7F725 /* Pods-LBBlurredImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0421B3AF73540B08BF1129F /* Pods-LBBlurredImage-dummy.m */; };
+		35201E2CB6B64EA19B773A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F21B4E6054415FBEADF7C6 /* Foundation.framework */; };
+		43BAD03E63FD465393F15913 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4968C33CCCF542B8AB7E1BD7 /* Accelerate.framework */; };
+		59F9286CD9A6452C816133E1 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F1C765F1394E648CDAA4EF /* UIImageView+LBBlurredImage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		71046E60E60E4CC0898557A3 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = B366B18858DE4D23A7A1F2E7 /* UIImage+ImageEffects.h */; };
+		8041DDA76AB64F05A86402A3 /* UIImageView+LBBlurredImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0A0D269D2E49259106843F /* UIImageView+LBBlurredImage.h */; };
+		BE243F18C9A34520BF3A977F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F21B4E6054415FBEADF7C6 /* Foundation.framework */; };
+		C7B337BAD4374B539DED738E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF68F15C9345828533E652 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C95A3E9F2E2B4D91B56FF019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE48D0A6E8443DBD36F91C /* CoreGraphics.framework */; };
+		E91931469DB44752AD35ECB2 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46900DEBF4E14709AB05E81F /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B35CF5E019846BC860BC53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DCCD33397C4D62BC703899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C746AA3730423C9DBBFC31;
+			remoteInfo = "Pods-LBBlurredImage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1947CDFEA7A644A99E80ABAB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19F21B4E6054415FBEADF7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F7F728B3957426B8F36461B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		35BE48D0A6E8443DBD36F91C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3EEF68F15C9345828533E652 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "LBBlurredImage/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		46900DEBF4E14709AB05E81F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4968C33CCCF542B8AB7E1BD7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		4A3AF61519614B068555F297 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		52F1C765F1394E648CDAA4EF /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LBBlurredImage.m"; path = "LBBlurredImage/UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		62C7A30BE00A4EA581DB1BF7 /* Pods-LBBlurredImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBBlurredImage-prefix.pch"; sourceTree = "<group>"; };
+		8F5CEF49A2E34AF8938FAE66 /* Pods-LBBlurredImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBBlurredImage-Private.xcconfig"; sourceTree = "<group>"; };
+		A4B9A224F591463998A618F7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A630DA196CC749B2BE7A8CBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2772E60C03A4E1B8FC3021E /* Pods-LBBlurredImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBBlurredImage.xcconfig"; sourceTree = "<group>"; };
+		B366B18858DE4D23A7A1F2E7 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "LBBlurredImage/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C940D7B1E9D14BDD9EC1A565 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		CB941044CAE34A1D9D154D86 /* libPods-LBBlurredImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBBlurredImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0421B3AF73540B08BF1129F /* Pods-LBBlurredImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBBlurredImage-dummy.m"; sourceTree = "<group>"; };
+		D52F80D424A84177A4D66F43 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8CD1A66265945DE92467052 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0A0D269D2E49259106843F /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LBBlurredImage.h"; path = "LBBlurredImage/UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF4983FCFD04D5687D9DEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BAD03E63FD465393F15913 /* Accelerate.framework in Frameworks */,
+				C95A3E9F2E2B4D91B56FF019 /* CoreGraphics.framework in Frameworks */,
+				35201E2CB6B64EA19B773A05 /* Foundation.framework in Frameworks */,
+				1B7489BFE0E946AA9D69BB9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBF14D2C2ED4729B56D71D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE243F18C9A34520BF3A977F /* Foundation.framework in Frameworks */,
+				1DF310AE56AC42EFA9EA3107 /* libPods-LBBlurredImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10471BCB75D144B7BDE6C182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				159F72F480744B8F87AB47E1 /* LBBlurredImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		159F72F480744B8F87AB47E1 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				B366B18858DE4D23A7A1F2E7 /* UIImage+ImageEffects.h */,
+				3EEF68F15C9345828533E652 /* UIImage+ImageEffects.m */,
+				DB0A0D269D2E49259106843F /* UIImageView+LBBlurredImage.h */,
+				52F1C765F1394E648CDAA4EF /* UIImageView+LBBlurredImage.m */,
+				BE3F2F47B0714BD4969CA0CE /* Support Files */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
+		2419CB44A58C4A249612976E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B41314CBF4CF3935B70A6 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59342DF854B44B0CBA15387F = {
+			isa = PBXGroup;
+			children = (
+				1947CDFEA7A644A99E80ABAB /* Podfile */,
+				5A6D4BAA21024B759C1D565E /* Frameworks */,
+				10471BCB75D144B7BDE6C182 /* Pods */,
+				BEE4DB0C9B794A949343D738 /* Products */,
+				2419CB44A58C4A249612976E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6D4BAA21024B759C1D565E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E0918615C6B47EB88F19840 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E0918615C6B47EB88F19840 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4968C33CCCF542B8AB7E1BD7 /* Accelerate.framework */,
+				35BE48D0A6E8443DBD36F91C /* CoreGraphics.framework */,
+				19F21B4E6054415FBEADF7C6 /* Foundation.framework */,
+				A630DA196CC749B2BE7A8CBE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE3F2F47B0714BD4969CA0CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2772E60C03A4E1B8FC3021E /* Pods-LBBlurredImage.xcconfig */,
+				8F5CEF49A2E34AF8938FAE66 /* Pods-LBBlurredImage-Private.xcconfig */,
+				D0421B3AF73540B08BF1129F /* Pods-LBBlurredImage-dummy.m */,
+				62C7A30BE00A4EA581DB1BF7 /* Pods-LBBlurredImage-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		BEE4DB0C9B794A949343D738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD1A66265945DE92467052 /* libPods.a */,
+				CB941044CAE34A1D9D154D86 /* libPods-LBBlurredImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2B41314CBF4CF3935B70A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C940D7B1E9D14BDD9EC1A565 /* Pods.xcconfig */,
+				D52F80D424A84177A4D66F43 /* Pods-acknowledgements.markdown */,
+				A4B9A224F591463998A618F7 /* Pods-acknowledgements.plist */,
+				46900DEBF4E14709AB05E81F /* Pods-dummy.m */,
+				4A3AF61519614B068555F297 /* Pods-environment.h */,
+				2F7F728B3957426B8F36461B /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8A09455B54C404EB008A49C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71046E60E60E4CC0898557A3 /* UIImage+ImageEffects.h in Headers */,
+				8041DDA76AB64F05A86402A3 /* UIImageView+LBBlurredImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99C746AA3730423C9DBBFC31 /* Pods-LBBlurredImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127109D19EEB4A38BDD946AD /* Build configuration list for PBXNativeTarget "Pods-LBBlurredImage" */;
+			buildPhases = (
+				6D04416B41FB449BB55AB657 /* Sources */,
+				5AF4983FCFD04D5687D9DEFE /* Frameworks */,
+				E8A09455B54C404EB008A49C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LBBlurredImage";
+			productName = "Pods-LBBlurredImage";
+			productReference = CB941044CAE34A1D9D154D86 /* libPods-LBBlurredImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4FE8BA177A94B74B11A3C46 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BFD5712E81D41C7BFA35E7C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				550F3346B003478BAAC56A17 /* Sources */,
+				FBBF14D2C2ED4729B56D71D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BE8C377390451680A5B539 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D8CD1A66265945DE92467052 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DCCD33397C4D62BC703899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5402ADEF94674456B949E2B3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59342DF854B44B0CBA15387F;
+			productRefGroup = BEE4DB0C9B794A949343D738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4FE8BA177A94B74B11A3C46 /* Pods */,
+				99C746AA3730423C9DBBFC31 /* Pods-LBBlurredImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550F3346B003478BAAC56A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91931469DB44752AD35ECB2 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D04416B41FB449BB55AB657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FCB6FF4A784C848ED7F725 /* Pods-LBBlurredImage-dummy.m in Sources */,
+				C7B337BAD4374B539DED738E /* UIImage+ImageEffects.m in Sources */,
+				59F9286CD9A6452C816133E1 /* UIImageView+LBBlurredImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BE8C377390451680A5B539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C746AA3730423C9DBBFC31 /* Pods-LBBlurredImage */;
+			targetProxy = 8B35CF5E019846BC860BC53B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A92EADC7E64B0DA9E920DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C940D7B1E9D14BDD9EC1A565 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26EECC48C9FB464BA40185E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5CEF49A2E34AF8938FAE66 /* Pods-LBBlurredImage-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-LBBlurredImage-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F707F3733244B8EA0F013EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5CEF49A2E34AF8938FAE66 /* Pods-LBBlurredImage-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-LBBlurredImage-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7807958A5C4443A0ABF31CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		DDF526127D044EE1AD5DA501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C940D7B1E9D14BDD9EC1A565 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5B0E7167F747D39421BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BFD5712E81D41C7BFA35E7C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A92EADC7E64B0DA9E920DB /* Debug */,
+				DDF526127D044EE1AD5DA501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127109D19EEB4A38BDD946AD /* Build configuration list for PBXNativeTarget "Pods-LBBlurredImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EECC48C9FB464BA40185E6 /* Debug */,
+				4F707F3733244B8EA0F013EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5402ADEF94674456B949E2B3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7807958A5C4443A0ABF31CC5 /* Debug */,
+				ED5B0E7167F747D39421BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DCCD33397C4D62BC703899 /* Project object */;
+}
